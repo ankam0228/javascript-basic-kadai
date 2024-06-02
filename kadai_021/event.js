@@ -1,0 +1,13 @@
+//クリック後、2秒後に表示が変わる。clickを使用。"ボタンをクリックしました。"
+
+const btn = document.getElementById('btn');
+const text = document.getElementById('text');
+
+btn.addEventListener('click', () => {
+setTimeout(() => {
+    text.textContent = 'ボタンをクリックしました。'
+    }, 2000);
+    });
+    
+
+
